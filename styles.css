@@ -1,0 +1,84 @@
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family:'Merriweather', serif;
+    font-size: 2rem;
+    background-color: #d0e2e5;
+}
+h1 {
+    /* Use font percentage to keep fonts dynamic. You can also use em to keep a dynamic size. 1em = 16px = 100% */
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color:#66BFBF;
+  
+
+}
+p {
+    font-size: 1rem;
+    
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:#66BFBF;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+    font-size: 1.5rem;
+}
+a {
+    color:#11999E;
+    font-size: 1rem;
+ }
+
+.top {
+
+    background-color: #d0e2e5;
+    position: relative;
+    padding-top: 100px;
+
+}
+
+#pro {
+    text-decoration: underline;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    
+}
+.profile-pic {
+    margin: 20px;
+    border-radius: 100%;
+    width: 20%;
+}
+
+.coding-skills {
+    margin: 20px;
+    float: left;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    /* Text align also changes positon of the images not just text */
+    line-height: 2;
+}
+.tower {
+    float: right;
+}
+hr {
+    width: 30%;
+    border-top: 1px dashed grey;
+}
