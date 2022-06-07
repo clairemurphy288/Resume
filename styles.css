@@ -16,6 +16,7 @@ h1 {
 
 }
 p {
+    clear: left;
     font-size: 1rem;
     
 }
